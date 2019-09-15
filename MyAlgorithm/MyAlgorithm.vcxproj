@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BRACKETS2.cpp" />
+    <ClCompile Include="DICTIONARY.cpp" />
     <ClCompile Include="FENCE_2nd.cpp" />
     <ClCompile Include="FORTRESS.cpp" />
     <ClCompile Include="INSERTION.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="NERD2.cpp" />
     <ClCompile Include="RUNNINGMEDIAN.cpp" />
     <ClCompile Include="TRAVERSAL.cpp" />
+    <ClCompile Include="WORDCHAIN.cpp" />
     <ClCompile Include="_template.cpp" />
   </ItemGroup>
   <ItemGroup>

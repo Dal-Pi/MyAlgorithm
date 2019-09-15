@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\23_우선순위 큐와 힙">
       <UniqueIdentifier>{7df07ee5-7357-4515-ab81-b08219c7c562}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\28_그래프의 깊이 우선 탐색">
+      <UniqueIdentifier>{3e028338-4dd6-4257-aeac-987ba1079040}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JOSEPHUS.cpp">
@@ -56,6 +59,12 @@
     </ClCompile>
     <ClCompile Include="RUNNINGMEDIAN.cpp">
       <Filter>소스 파일\23_우선순위 큐와 힙</Filter>
+    </ClCompile>
+    <ClCompile Include="DICTIONARY.cpp">
+      <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="WORDCHAIN.cpp">
+      <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
