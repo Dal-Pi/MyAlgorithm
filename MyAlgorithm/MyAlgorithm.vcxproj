@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -142,10 +142,16 @@
     <ClCompile Include="BRACKETS2.cpp" />
     <ClCompile Include="FENCE_2nd.cpp" />
     <ClCompile Include="FORTRESS.cpp" />
+    <ClCompile Include="INSERTION.cpp" />
     <ClCompile Include="ITES.cpp" />
     <ClCompile Include="JOSEPHUS.cpp" />
+    <ClCompile Include="NERD2.cpp" />
+    <ClCompile Include="RUNNINGMEDIAN.cpp" />
     <ClCompile Include="TRAVERSAL.cpp" />
     <ClCompile Include="_template.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Treap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

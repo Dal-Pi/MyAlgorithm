@@ -10,7 +10,12 @@ int main()
 	cin >> C;
 	for (int testcase = 0; testcase < C; ++testcase)
 	{
-		
+		int N;
+		cin >> N;
+		for (int i = 0; i < N; ++i)
+		{
+
+		}
 	}
 	return 0;
 }
