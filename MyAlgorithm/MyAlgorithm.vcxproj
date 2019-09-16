@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BRACKETS2.cpp" />
+    <ClCompile Include="dfs.cpp" />
+    <ClCompile Include="dfs2.cpp" />
     <ClCompile Include="DICTIONARY.cpp" />
     <ClCompile Include="FENCE_2nd.cpp" />
     <ClCompile Include="FORTRESS.cpp" />

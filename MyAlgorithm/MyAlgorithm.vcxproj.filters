@@ -66,6 +66,12 @@
     <ClCompile Include="WORDCHAIN.cpp">
       <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
     </ClCompile>
+    <ClCompile Include="dfs.cpp">
+      <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs2.cpp">
+      <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Treap.h">
