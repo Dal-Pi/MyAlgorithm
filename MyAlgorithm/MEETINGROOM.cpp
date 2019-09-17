@@ -1,7 +1,7 @@
 #if 0
 
-//타잔의 강결합 컴포넌트 분리 알고리즘의 구현
-//(방향 그래프에서 이루어진다)
+//unsolved
+
 #include <iostream>
 #include <vector>
 #include <stack>
@@ -38,7 +38,7 @@ int scc(int here)
 		//else 방향 그래프이므로 교차 간선이 존재할 수 있는데 
 		// 이는 역방향 간선이라고 오판하게 만들 수 있으므로 유의 (교차 간선을 무시한다)
 	}
-	
+
 	//here가 강결합 컴포넌트의 루트인지 확인한다
 	if (ret == discovered[here])
 	{
@@ -69,6 +69,85 @@ vector<int> tarjanSCC()
 		if (-1 == discovered[i])
 			scc(i);
 	return sccId;
+}
+
+bool disjoint(const pair<int, int>& x, const pair<int, int>& y)
+{
+	return x.second <= y.first || y.second <= x.first;
+}
+
+void makeGraph(const vector<pair<int, int>>& meetings)
+{
+	int vars = meetings.size();
+	adj.clear();
+	adj.resize(vars * 2);
+	for (int i = 0; i < vars; i += 2)
+	{
+		int j = i + 1;
+		adj[i * 2 + 1].push_back(j * 2);
+		adj[j * 2 + 1].push_back(i * 2);
+	}
+	for (int i = 0; i < vars; ++i)
+	{
+		for (int j = 0; j < i; ++j)
+		{
+			if (!disjoint(meetings[i], meetings[j]))
+			{
+				adj[i * 2].push_back(j * 2 + 1);
+				adj[j * 2].push_back(i * 2 + 1);
+			}
+		}
+	}
+}
+
+vector<int> solve2SAT()
+{
+	int n = adj.size() / 2;
+	vector<int> label = tarjanSCC();
+	for (int i = 0; i < 2 * n; i += 2)
+		if (label[i] == label[i + 1])
+			return vector<int>();
+
+	vector<int> value(2 * n, -1);
+	vector<pair<int, int>> order;
+	for (int i = 0; i < n * 2; ++i)
+		order.push_back(make_pair(-label[i], i));
+	sort(begin(order), end(order));
+
+	for (int i = 0; i < n * 2; ++i)
+	{
+		int vertex = order[i].second;
+		int variable = vertex / 2;
+		bool isTrue = vertex % 2 == 0;
+		if (value[variable] != -1)
+			continue;
+		value[variable] = !isTrue;
+	}
+	return value;
+}
+
+int main()
+{
+	int C = 0;
+	cin >> C;
+	for (int testcase = 0; testcase < C; ++testcase)
+	{
+		int N = 0;
+		cin >> N;
+		int a, b, c, d;
+		vector<pair<int, int>> meetings;
+		for (int i = 0; i < N; ++i)
+		{
+			cin >> a >> b >> c >> d;
+			meetings.push_back(make_pair(a, b));
+			meetings.push_back(make_pair(c, d));
+		}
+		makeGraph(meetings);
+		auto values = solve2SAT();
+
+		cout << endl;
+	}
+	return 0;
 }
 
 #endif
