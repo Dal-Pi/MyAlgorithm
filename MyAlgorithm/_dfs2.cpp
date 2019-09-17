@@ -1,4 +1,4 @@
-#if 1
+#if 0
 
 //간선을 구분하는 dfs
 #include <iostream>
@@ -28,7 +28,7 @@ void dfs2(int here)
 		else if (false == finished[there])
 			cout << "back edge" << endl; // 역방향 간선 (there는 here의 선조)
 		else
-			cout << "back edge" << endl; // 교차 간선
+			cout << "cross edge" << endl; // 교차 간선
 	}
 	finished[here] = true;
 }

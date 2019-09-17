@@ -1,6 +1,6 @@
 #if 0
 
-//기본적인 dfs
+//그래프의 깊이 우선 탐색
 #include <iostream>
 #include <vector>
 

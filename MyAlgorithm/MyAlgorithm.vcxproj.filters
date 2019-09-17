@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\28_그래프의 깊이 우선 탐색">
       <UniqueIdentifier>{3e028338-4dd6-4257-aeac-987ba1079040}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\29_그래프의 너비 우선 탐색">
+      <UniqueIdentifier>{aeae133f-3768-4a24-92b5-03ccb6709164}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JOSEPHUS.cpp">
@@ -66,15 +69,27 @@
     <ClCompile Include="WORDCHAIN.cpp">
       <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
     </ClCompile>
-    <ClCompile Include="dfs.cpp">
+    <ClCompile Include="_dfs2.cpp">
       <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
     </ClCompile>
-    <ClCompile Include="dfs2.cpp">
+    <ClCompile Include="_dfs.cpp">
       <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="_scc.cpp">
+      <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="_findCutVertex.cpp">
+      <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="_bfs.cpp">
+      <Filter>소스 파일\29_그래프의 너비 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="_bfs2.cpp">
+      <Filter>소스 파일\29_그래프의 너비 우선 탐색</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Treap.h">
+    <ClInclude Include="_Treap.h">
       <Filter>소스 파일\22_이진 검색 트리</Filter>
     </ClInclude>
   </ItemGroup>

@@ -140,22 +140,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BRACKETS2.cpp" />
-    <ClCompile Include="dfs.cpp" />
-    <ClCompile Include="dfs2.cpp" />
+    <ClCompile Include="_bfs.cpp" />
+    <ClCompile Include="_bfs2.cpp" />
+    <ClCompile Include="_dfs.cpp" />
+    <ClCompile Include="_dfs2.cpp" />
     <ClCompile Include="DICTIONARY.cpp" />
     <ClCompile Include="FENCE_2nd.cpp" />
+    <ClCompile Include="_findCutVertex.cpp" />
     <ClCompile Include="FORTRESS.cpp" />
     <ClCompile Include="INSERTION.cpp" />
     <ClCompile Include="ITES.cpp" />
     <ClCompile Include="JOSEPHUS.cpp" />
     <ClCompile Include="NERD2.cpp" />
     <ClCompile Include="RUNNINGMEDIAN.cpp" />
+    <ClCompile Include="_scc.cpp" />
     <ClCompile Include="TRAVERSAL.cpp" />
     <ClCompile Include="WORDCHAIN.cpp" />
     <ClCompile Include="_template.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Treap.h" />
+    <ClInclude Include="_Treap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
