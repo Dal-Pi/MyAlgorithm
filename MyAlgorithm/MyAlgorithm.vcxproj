@@ -142,6 +142,7 @@
     <ClCompile Include="BRACKETS2.cpp" />
     <ClCompile Include="GALLERY.cpp" />
     <ClCompile Include="MEETINGROOM.cpp" />
+    <ClCompile Include="SORTGAME.cpp" />
     <ClCompile Include="_bfs.cpp" />
     <ClCompile Include="_bfs2.cpp" />
     <ClCompile Include="_dfs.cpp" />
