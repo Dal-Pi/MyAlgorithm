@@ -141,14 +141,18 @@
   <ItemGroup>
     <ClCompile Include="BRACKETS2.cpp" />
     <ClCompile Include="GALLERY.cpp" />
+    <ClCompile Include="HANOI4B.cpp" />
     <ClCompile Include="MEETINGROOM.cpp" />
+    <ClCompile Include="ROUTING.cpp" />
     <ClCompile Include="SORTGAME.cpp" />
+    <ClCompile Include="_bellmanFord.cpp" />
     <ClCompile Include="_bfs.cpp" />
     <ClCompile Include="_bfs2.cpp" />
     <ClCompile Include="_dfs.cpp" />
     <ClCompile Include="_dfs2.cpp" />
     <ClCompile Include="DICTIONARY.cpp" />
     <ClCompile Include="FENCE_2nd.cpp" />
+    <ClCompile Include="_dijkstra.cpp" />
     <ClCompile Include="_findCutVertex.cpp" />
     <ClCompile Include="FORTRESS.cpp" />
     <ClCompile Include="INSERTION.cpp" />
@@ -156,6 +160,7 @@
     <ClCompile Include="JOSEPHUS.cpp" />
     <ClCompile Include="NERD2.cpp" />
     <ClCompile Include="RUNNINGMEDIAN.cpp" />
+    <ClCompile Include="_memo.cpp" />
     <ClCompile Include="_scc.cpp" />
     <ClCompile Include="TRAVERSAL.cpp" />
     <ClCompile Include="WORDCHAIN.cpp" />

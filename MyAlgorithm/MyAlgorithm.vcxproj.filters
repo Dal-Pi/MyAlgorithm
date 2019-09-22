@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\29_그래프의 너비 우선 탐색">
       <UniqueIdentifier>{aeae133f-3768-4a24-92b5-03ccb6709164}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\30_최단 경로 알고리즘">
+      <UniqueIdentifier>{9017e428-5278-4994-ad55-d24148a43821}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JOSEPHUS.cpp">
@@ -95,6 +98,21 @@
     </ClCompile>
     <ClCompile Include="SORTGAME.cpp">
       <Filter>소스 파일\29_그래프의 너비 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="HANOI4B.cpp">
+      <Filter>소스 파일\28_그래프의 깊이 우선 탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="_memo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="_dijkstra.cpp">
+      <Filter>소스 파일\30_최단 경로 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="ROUTING.cpp">
+      <Filter>소스 파일\30_최단 경로 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="_bellmanFord.cpp">
+      <Filter>소스 파일\30_최단 경로 알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
