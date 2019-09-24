@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BRACKETS2.cpp" />
+    <ClCompile Include="FIRETRUCKS.cpp" />
     <ClCompile Include="GALLERY.cpp" />
     <ClCompile Include="HANOI4B.cpp" />
     <ClCompile Include="MEETINGROOM.cpp" />
+    <ClCompile Include="NTHLON.cpp" />
     <ClCompile Include="ROUTING.cpp" />
     <ClCompile Include="SORTGAME.cpp" />
     <ClCompile Include="_bellmanFord.cpp" />

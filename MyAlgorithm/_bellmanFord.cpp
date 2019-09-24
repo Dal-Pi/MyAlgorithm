@@ -1,4 +1,4 @@
-#if 1
+#if 0
 
 //벨만-포드 알고리즘의 구현
 #include <iostream>
