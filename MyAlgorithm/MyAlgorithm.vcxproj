@@ -147,6 +147,7 @@
     <ClCompile Include="NTHLON.cpp" />
     <ClCompile Include="ROUTING.cpp" />
     <ClCompile Include="SORTGAME.cpp" />
+    <ClCompile Include="TIMETRIP.cpp" />
     <ClCompile Include="_bellmanFord.cpp" />
     <ClCompile Include="_bfs.cpp" />
     <ClCompile Include="_bfs2.cpp" />
@@ -162,6 +163,7 @@
     <ClCompile Include="JOSEPHUS.cpp" />
     <ClCompile Include="NERD2.cpp" />
     <ClCompile Include="RUNNINGMEDIAN.cpp" />
+    <ClCompile Include="_floid.cpp" />
     <ClCompile Include="_memo.cpp" />
     <ClCompile Include="_scc.cpp" />
     <ClCompile Include="TRAVERSAL.cpp" />
